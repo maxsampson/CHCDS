@@ -12,10 +12,10 @@ devtools::install_github("maxsampson/CHCDS")
 
 The functions chcds and chcds.div require 4 inputs, y_{grid}, \hat{f}(Y_i|X_i) for i \in \mathcal{I}_{cal}, \hat{f}(y_{grid}|X_i) for i \in \mathcal{I}_{cal} and i \in mathcal{I}_{test}, and \alpha.
 
--y_{grid} is a vector of possible response values used to estimate the unconformalized HPD.
--\hat{f}(y_{grid}|X_i: Estimated density values computed at y_grid for a given set of predictors. The input specifies that each row is unique to X_i for predictors in the calibration and testing set. 
--\hat{f}(Y_i|X_i) is a vector of estimated conditional density values at the observed response for the calibration set.
--\alpha is a numeric; the desired miscoverage level.
+- y_{grid} is a vector of possible response values used to estimate the unconformalized HPD.
+- \hat{f}(y_{grid}|X_i: Estimated density values computed at y_grid for a given set of predictors. The input specifies that each row is unique to X_i for predictors in the calibration and testing set. 
+- \hat{f}(Y_i|X_i) is a vector of estimated conditional density values at the observed response for the calibration set.
+- \alpha is a numeric; the desired miscoverage level.
 
 A simple example that assumes $\hat{f}$ is the conditional density for a Normal distribution where least squares regression is used to estimate the standard deviation and conditional mean:
 
