@@ -1,0 +1,14 @@
+Package: CHCDS
+Title: Conformalized Highest Conditional Density Sets
+Version: 1.0.0
+Authors@R: c(
+    person("Max", "Sampson", email = "max-sampson@uiowa.edu", role = c("aut", "cre")),
+    person("Kung-Sik", "Chan", email = "kung-sik-chan@uiowa.edu", role = c("aut"))
+    )
+Description: Adds an additive or multiplicative conformal adjustment to existing highest conditional density sets to provide
+    conformal gaurantees to the nominal coverage. 
+License: GPL-3   
+Depends: hdrcde
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
