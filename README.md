@@ -3,7 +3,7 @@
 
 *CHCDS* is an R package that can be used to compute conformalized highest conditional density sets.
 
-Sampson, M. and Chan, K.S. (2019). [Flexible Conformal Highest Predictive Conditional Density Sets](https://arxiv.org/abs/2406.18052)
+Sampson, M. and Chan, K.S. (2025). [Flexible Conformal Highest Predictive Conditional Density Sets](https://arxiv.org/abs/2406.18052)
 
 To install the package, run
 
